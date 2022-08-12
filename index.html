@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A pirates life</title>
+  <link rel="stylesheet" href="styles/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1 class="title">A pirate life</h1>
+  <div class="grid-container">
+    <div id="status" class="item1">
+      <div class="box-container">
+        <p>Pirate name: <span id="name"></span></p>
+        <p>Life: <span id="life"></span></p>
+        <p>Ammo: <span id="ammo"></span></p>
+        <p>Wins: <span id="wins"></span></p>
+        <p>Bounty: <span id="bounty"></span><span> Gold coins</span></p>
+        <button id="reset">New pirate!</button>
+      </div>
+    </div>
+
+    <div id="actions" class="item2">
+      <button id="shoot" disabled="true">Shoot</button> <img src="assets/animations/Magnum.png" alt="" srcset="" width="50px" height="50px">
+      <button id="cover">Cover</button><img src="assets/animations/Barrel.png" alt="" srcset="" width="50px" height="50px">
+      <button id="reload">Reload</button> <img src="assets/animations/Ammo.png" alt="" srcset="" width="50px" height="50px" class="lastPixel">
+      <div class="box-container">
+        <div class="lastActions">
+        <p class="you">You: <span id="user-choice"></span> </p>
+        <p>Pirate: <span id="computer-choice"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="piratesDecisions" class="item3">
+      <div>
+        <div class="pirate-data box-container">
+          <p class="pirate-data">Pirate name <span id="mightyName" class="data-name"></span></p>
+        </div>
+        <div class="pirate-data box-container">
+          <p class="pirate-data">Pirate life <span id="mightyLife" class="data-number">3</span></p>
+        </div>
+        <div class="pirate-data box-container">
+          <p class="pirate-data">Pirate Ammo <span id="mightyAmmo" class="data-number">0</span></p>
+        </div>
+      </div>
+   </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>

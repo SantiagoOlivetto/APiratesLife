@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tangerine', cursive;;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+body {
+background: linear-gradient(76deg, rgba(184,79,11,1) 0%, rgba(233,193,106,1) 51%, rgba(100,162,173,1) 100%); 
+}
+
+h1.title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    margin: 1rem;
+}
+
+div.box-container {
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+div.box-container1 {
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+div.item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.item3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.pirate-data {
+    margin: 1rem;
+    justify-content: center;
+}
+
+p.pirate-data {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span.data-number {
+    display: flex;
+    justify-content: center;
+}
+
+span.data-name {
+    color: red;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 208, 0, 0.473);
+    margin: 0.5rem;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+button:hover {
+    background-color: white;
+    color: #64a2ad;
+}
+
+img.lastPixel {
+    margin-bottom: 1rem;
+}
